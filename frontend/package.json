@@ -1,0 +1,27 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "projeto 1",
+  "main": "app.js",
+  "scripts": {
+    "start": "gulp start",
+    "build-css": "node-sass --include-path scss css/main.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.1.12",
+    "electron-connect": "^0.6.3",
+    "express": "^4.18.2",
+    "gulp-sass": "^5.1.0",
+    "node-sass": "^7.0.3",
+    "nodemon": "^2.0.20",
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "electron-reload": "^2.0.0-alpha.1",
+    "gulp": "^4.0.2",
+    "jquery": "^3.6.1"
+  }
+}
